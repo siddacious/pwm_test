@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="pwm3"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/bsiepert/dev/micro/pwm3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bsiepert/dev/micro/pwm3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bsiepert/dev/micro/pwm3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bsiepert/dev/micro/pwm3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bsiepert/dev/micro/pwm3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/bsiepert/dev/micro/pwm3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bsiepert/dev/micro/pwm3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bsiepert/dev/micro/pwm3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bsiepert/dev/micro/pwm3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bsiepert/dev/micro/pwm3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/bsiepert/dev/micro/pwm3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bsiepert/dev/micro/pwm3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bsiepert/dev/micro/pwm3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bsiepert/dev/micro/pwm3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bsiepert/dev/micro/pwm3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pwm3">
+				<Option output="/Users/bsiepert/dev/micro/pwm3/cmake-build-debug/pwm3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bsiepert/dev/micro/pwm3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bsiepert/dev/micro/pwm3/cmake-build-debug/Makefile&quot;  VERBOSE=1 pwm3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bsiepert/dev/micro/pwm3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bsiepert/dev/micro/pwm3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bsiepert/dev/micro/pwm3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pwm3/fast">
+				<Option output="/Users/bsiepert/dev/micro/pwm3/cmake-build-debug/pwm3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bsiepert/dev/micro/pwm3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/7.0.2/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bsiepert/dev/micro/pwm3/cmake-build-debug/Makefile&quot;  VERBOSE=1 pwm3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bsiepert/dev/micro/pwm3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bsiepert/dev/micro/pwm3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bsiepert/dev/micro/pwm3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/CMSIS/Include/arm_common_tables.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/CMSIS/Include/arm_const_structs.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/CMSIS/Include/arm_math.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/CMSIS/Include/cmsis_armcc.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/CMSIS/Include/cmsis_armclang.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/CMSIS/Include/cmsis_compiler.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/CMSIS/Include/cmsis_gcc.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/CMSIS/Include/core_armv8mbl.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/CMSIS/Include/core_armv8mml.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/CMSIS/Include/core_cm0.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/CMSIS/Include/core_cm0plus.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/CMSIS/Include/core_cm23.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/CMSIS/Include/core_cm3.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/CMSIS/Include/core_cm33.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/CMSIS/Include/core_cm4.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/CMSIS/Include/core_cm7.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/CMSIS/Include/core_sc000.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/CMSIS/Include/core_sc300.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/CMSIS/Include/tz_context.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/atmel_start.c">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/atmel_start.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/atmel_start_pins.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/config/hpl_dmac_config.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/config/hpl_gclk_config.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/config/hpl_pm_config.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/config/hpl_sysctrl_config.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/config/hpl_tc_config.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/config/peripheral_clk_config.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/driver_init.c">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/driver_init.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/examples/driver_examples.c">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/examples/driver_examples.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/include/hal_atomic.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/include/hal_delay.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/include/hal_gpio.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/include/hal_init.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/include/hal_io.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/include/hal_pwm.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/include/hal_sleep.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/include/hpl_core.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/include/hpl_delay.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/include/hpl_dma.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/include/hpl_gpio.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/include/hpl_init.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/include/hpl_irq.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/include/hpl_missing_features.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/include/hpl_pwm.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/include/hpl_reset.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/include/hpl_sleep.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/include/hpl_timer.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/src/hal_atomic.c">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/src/hal_delay.c">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/src/hal_gpio.c">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/src/hal_init.c">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/src/hal_io.c">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/src/hal_pwm.c">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/src/hal_sleep.c">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/utils/include/compiler.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/utils/include/err_codes.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/utils/include/events.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/utils/include/parts.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/utils/include/utils.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/utils/include/utils_assert.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/utils/include/utils_event.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/utils/include/utils_increment_macro.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/utils/include/utils_list.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/utils/include/utils_repeat_macro.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/utils/src/utils_assert.c">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/utils/src/utils_event.c">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/utils/src/utils_list.c">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hal/utils/src/utils_syscalls.c">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hpl/core/hpl_core_m0plus_base.c">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hpl/core/hpl_core_port.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hpl/core/hpl_init.c">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hpl/dmac/hpl_dmac.c">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hpl/gclk/hpl_gclk.c">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hpl/gclk/hpl_gclk_base.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hpl/pm/hpl_pm.c">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hpl/pm/hpl_pm_base.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hpl/port/hpl_gpio_base.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hpl/sysctrl/hpl_sysctrl.c">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hpl/tc/hpl_tc.c">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hpl/tc/hpl_tc_base.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hri/hri_ac_d21.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hri/hri_adc_d21.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hri/hri_d21.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hri/hri_dac_d21.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hri/hri_dmac_d21.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hri/hri_dsu_d21.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hri/hri_eic_d21.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hri/hri_evsys_d21.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hri/hri_gclk_d21.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hri/hri_hmatrixb_d21.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hri/hri_i2s_d21.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hri/hri_mtb_d21.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hri/hri_nvic_d21.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hri/hri_nvmctrl_d21.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hri/hri_pac_d21.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hri/hri_pm_d21.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hri/hri_port_d21.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hri/hri_rtc_d21.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hri/hri_sercom_d21.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hri/hri_sysctrl_d21.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hri/hri_systemcontrol_d21.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hri/hri_systick_d21.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hri/hri_tc_d21.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hri/hri_tcc_d21.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hri/hri_usb_d21.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/hri/hri_wdt_d21.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/main.c">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/armcc/Device/SAMD21/Source/system_samd21.c">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/gcc/gcc/startup_samd21.c">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/gcc/system_samd21.c">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/component-version.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/component/ac.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/component/adc.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/component/dac.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/component/dmac.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/component/dsu.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/component/eic.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/component/evsys.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/component/gclk.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/component/hmatrixb.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/component/i2s.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/component/mtb.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/component/nvmctrl.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/component/pac.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/component/pm.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/component/port.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/component/rtc.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/component/sercom.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/component/sysctrl.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/component/tc.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/component/tcc.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/component/usb.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/component/wdt.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/ac.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/adc.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/dac.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/dmac.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/dsu.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/eic.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/evsys.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/gclk.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/i2s.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/mtb.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/nvmctrl.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/pac0.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/pac1.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/pac2.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/pm.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/port.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/rtc.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/sbmatrix.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/sercom0.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/sercom1.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/sercom2.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/sercom3.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/sercom4.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/sercom5.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/sysctrl.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/tc3.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/tc4.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/tc5.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/tc6.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/tc7.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/tcc0.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/tcc1.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/tcc2.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/usb.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/instance/wdt.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/pio/samd21e15a.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/pio/samd21e16a.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/pio/samd21e17a.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/pio/samd21e18a.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/pio/samd21g15a.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/pio/samd21g16a.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/pio/samd21g17a.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/pio/samd21g17au.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/pio/samd21g18a.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/pio/samd21g18au.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/pio/samd21j15a.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/pio/samd21j16a.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/pio/samd21j17a.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/pio/samd21j18a.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/sam.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/samd21.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/samd21e15a.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/samd21e16a.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/samd21e17a.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/samd21e18a.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/samd21g15a.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/samd21g16a.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/samd21g17a.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/samd21g17au.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/samd21g18a.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/samd21g18au.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/samd21j15a.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/samd21j16a.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/samd21j17a.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/samd21j18a.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/samd21a/include/system_samd21.h">
+			<Option target="pwm3"/>
+		</Unit>
+		<Unit filename="/Users/bsiepert/dev/micro/pwm3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
