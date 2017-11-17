@@ -1,30 +1,22 @@
 #include <atmel_start.h>
+#include <hpl_pm_base.h>
+#include <hpl_gclk_base.h>
 
 int main(void)
 {
 	/* Initializes MCU, drivers and middleware */
+	gpio_set_pin_function(PIN_PA21, GPIO_PIN_FUNCTION_F); // D7
+	_pm_enable_bus_clock(PM_BUS_APBC, TCC0);
+	_gclk_enable_channel(TCC0_GCLK_ID, GCLK_CLKCTRL_GEN_GCLK0_Val);
+	TCC0->WAVE.bit.WAVEGEN = TCC_WAVE_WAVEGEN_NPWM_Val;
+	TCC0->CTRLA.bit.ENABLE = true;
+	TCC0->PER.bit.PER = 199;
+	while (TCC0->SYNCBUSY.bit.ENABLE == 1) {}
+	TCC0->CC[3].bit.CC = 99;
+	while (TCC0->SYNCBUSY.bit.CC0 == 1) {}
+	TCC0->CTRLBSET.bit.CMD = 0x1;
 	atmel_start_init();
-	/*
-	// EXAMLE FROM FORUM
-	_pm_enable_bus_clock(PM_BUS_APBC, TC4);
-    _gclk_enable_channel(TC4_GCLK_ID, CONF_GCLK_TC4_SRC);
-    gpio_set_pin_function(P_LED_G, PINMUX_PB08E_TC4_WO0);
-
-    pwm_init(&PWM_1, TC4, _tc_get_pwm());
-
-    pwm_set_parameters(&PWM_1, 10000, 5000);
-    pwm_enable(&PWM_1);
-	 */
-    /*
-
-	_pm_enable_bus_clock(PM_BUS_APBC, TC4);
-	_gclk_enable_channel(TC4_GCLK_ID, CONF_GCLK_TC4_SRC);
-	gpio_set_pin_function(P_LED_G, PINMUX_PB09E_TC4_WO1);
-
-	pwm_init(&PWM_1, TC4, _tc_get_pwm());
-	*/
-	pwm_set_parameters(&PWM_1, 10000, 5000);
-	pwm_enable(&PWM_1);
+	// START
 	/* Replace with your application code */
 	while (1) {
 	}
