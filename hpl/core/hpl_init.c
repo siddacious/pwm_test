@@ -56,7 +56,13 @@ void _init_chip(void)
 {
 	hri_nvmctrl_set_CTRLB_RWS_bf(NVMCTRL, CONF_NVM_WAIT_STATE);
 
-	_pm_init();
+	_pm_init(); //sets divfactors for
+	/*
+	 * hri_pm_set_CPUSEL_CPUDIV_bf(PM, CONF_CPU_DIV);
+	hri_pm_set_APBASEL_APBADIV_bf(PM, CONF_APBA_DIV);
+	hri_pm_set_APBBSEL_APBBDIV_bf(PM, CONF_APBB_DIV);
+	hri_pm_set_APBCSEL_APBCDIV_bf(PM, CONF_APBC_DIV);
+	 */
 	_sysctrl_init_sources();
 	_gclk_init_generators();
 	_sysctrl_init_referenced_generators();

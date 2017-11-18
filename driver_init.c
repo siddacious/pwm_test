@@ -72,13 +72,25 @@ void PWM_2_init(void)
 	pwm_init(&PWM_2, TC5, _tc_get_pwm());
 }
 
+
 void system_init(void)
 {
 	init_mcu();
+//	gpio_set_pin_direction(LED0, GPIO_DIRECTION_OUT);
+//
+//	gpio_set_pin_level(LED0,
+//			// <y> Initial level
+//			// <id> pad_initial_level
+//			// <false"> Low
+//			// <true"> High
+//					   false);
+//
+//	gpio_set_pin_function(LED0, GPIO_PIN_FUNCTION_OFF);
+	//delay_init(SysTick);
 
-	PWM_0_init();
+	//PWM_0_init();
 
-	PWM_1_init();
+	//PWM_1_init();
 
-	PWM_2_init();
+	//PWM_2_init();
 }
