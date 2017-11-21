@@ -1,0 +1,10 @@
+.idea/
+*.d
+*.o
+*.bin
+*.eep
+*.elf
+*.hex
+*.lss
+*.map
+*.sw*

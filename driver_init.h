@@ -28,23 +28,7 @@ extern "C" {
 #include <hal_pwm.h>
 #include <hpl_tc_base.h>
 
-extern struct pwm_descriptor PWM_0;
 
-extern struct pwm_descriptor PWM_1;
-
-extern struct pwm_descriptor PWM_2;
-
-void PWM_0_PORT_init(void);
-void PWM_0_CLOCK_init(void);
-void PWM_0_init(void);
-
-void PWM_1_PORT_init(void);
-void PWM_1_CLOCK_init(void);
-void PWM_1_init(void);
-
-void PWM_2_PORT_init(void);
-void PWM_2_CLOCK_init(void);
-void PWM_2_init(void);
 
 /**
  * \brief Perform system initialization, initialize pins and clocks for

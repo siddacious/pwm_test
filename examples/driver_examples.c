@@ -15,8 +15,8 @@
  */
 void PWM_0_example(void)
 {
-	pwm_set_parameters(&PWM_0, 10000, 5000);
-	pwm_enable(&PWM_0);
+//	pwm_set_parameters(&PWM_0, 10000, 5000);
+//	pwm_enable(&PWM_0);
 }
 
 /**
@@ -24,8 +24,8 @@ void PWM_0_example(void)
  */
 void PWM_1_example(void)
 {
-	pwm_set_parameters(&PWM_1, 10000, 5000);
-	pwm_enable(&PWM_1);
+//	pwm_set_parameters(&PWM_1, 10000, 5000);
+//	pwm_enable(&PWM_1);
 }
 
 /**
@@ -33,6 +33,6 @@ void PWM_1_example(void)
  */
 void PWM_2_example(void)
 {
-	pwm_set_parameters(&PWM_2, 10000, 5000);
-	pwm_enable(&PWM_2);
+//	pwm_set_parameters(&PWM_2, 10000, 5000);
+//	pwm_enable(&PWM_2);
 }
